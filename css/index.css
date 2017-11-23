@@ -1,0 +1,339 @@
+header {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.header-top {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header-top .icon-home {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+    background: url(../resource/images/jingling1.png) -4px -243px no-repeat;
+}
+
+.header-top > ul {
+    width: 454px;
+}
+
+.header-top > ul > li {
+    float: right;
+    margin: 0 10px;
+}
+
+.header-top > ul .cart div{
+    width: 200px;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    margin-left: -20px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #c1c1c1;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    display: none;
+}
+
+.header-top > ul .cart:hover div{
+    display: block;
+}
+
+.header-top > ul .icon-select {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 6px;
+    background: url(../resource/images/jingling1.png) -4px -539px no-repeat;
+}
+
+.header-top > ul .icon-cart {
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+    background: url(../resource/images/jingling1.png) -4px -428px no-repeat;
+}
+
+.header-top > ul .icon-down {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    position: relative;
+    top: -2px;
+    background: url(../resource/images/jingling1.png) -4px -476px no-repeat;
+}
+
+.header-top > ul .icon-xiaodian {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 4px;
+    background: url(../resource/images/jingling1.png) -4px -573px no-repeat;
+}
+
+.header-top > ul > li + li > a:after {
+    content: "|";
+    margin-left: 10px;
+    color: #ccc;
+}
+
+.header-top > ul > li > ul {
+    display: none;
+    background-color: #f2f2f2;
+    position: absolute;
+    margin-left: -20px;
+    border: 1px solid #c1c1c1;
+    border-top: none;
+}
+
+.header-top > ul > li:hover > ul {
+    display: block;
+}
+
+.header-top > ul > li:hover > ul > li {
+    padding: 0 20px;
+}
+
+.header-top > ul > li:hover > ul > li:hover {
+    background-color: #c9c9c9;
+}
+
+.header-bottom {
+    background-color: white;
+}
+
+.header-bottom .wrap {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom .logo {
+    width: 153px;
+    height: 51px;
+    background: url("../resource/images/jingling1.png") -3px -4px no-repeat;
+}
+
+.header-bottom .ad img {
+    width: 220px;
+}
+
+.header-bottom .search-wrap .search {
+    height: 36px;
+    display: flex;
+    border: 1px solid #f07;
+    text-align: center;
+    border-radius: 0 8px 8px 0;
+}
+
+.search-wrap .search span {
+    width: 60px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 5px;
+    color: #f07;
+}
+
+.search-wrap .search span ul {
+    display: none;
+    width: 70px;
+    position: relative;
+    margin: 1px 0 0 -6px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.search-wrap .search span:hover ul {
+    display: block;
+}
+
+.search-wrap .search span ul li {
+    width: 60px;
+    padding: 0 5px;
+}
+
+.search-wrap .search span ul li:hover {
+    background-color: #ffe9f3;
+}
+
+.search-wrap .search input {
+    border: none;
+    width: 305px;
+    padding: 6px 0 6px 10px;
+}
+
+.search-wrap .search button {
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    font-size: 18px;
+    background-color: #f07;
+    background-image: linear-gradient(to right, #f25, #fe2185);
+    cursor: pointer;
+}
+
+.search-wrap .search button:hover {
+    background-image: linear-gradient(to right, #fe2185, #f25);
+}
+
+.search-wrap li a{
+    display: inline-block;
+    float: left;
+    margin:10px 12px 0 0;
+}
+
+/*main头部轮播图部分*/
+
+.main-header-top{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header-top div{
+    display: inline-block;
+}
+
+.main-header-top div a{
+    display: inline-block;
+    width: 141px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.main-header-top div a:hover{
+    color: #f07;
+}
+
+.main-header-top div a+a{
+    border-left: 1px solid #ccc;
+}
+
+.main-header-top .nav-header-link{
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 257px;
+    color: white;
+    font-size: 18px;
+    background-image: url(../resource/images/main-header/nav-head.png);
+}
+
+/*轮播图和导航*/
+
+.main-header-bottom{
+    width: 100%;
+    height: 440px;
+    border-top: 1px solid #f07;
+}
+.main-header-bottom>div{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-header-bottom .nav{
+    width: 256px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.main-header-bottom .slide-show{
+    width: 778px;
+    height: 100%;
+   position: relative;
+}
+.main-header-bottom .aside{
+    width: 166px;
+    height: 100%;
+}
+
+.main-header-bottom .nav ul li{
+    width: 100%;
+    height: 31px;
+}
+
+.main-header-bottom .nav ul li:hover{
+    background-color: white;
+}
+.main-header-bottom .nav ul li >a{
+    display: inline-block;
+    padding: 0 10px 0 20px;
+    width: 40px;
+    line-height: 31px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-header-bottom .nav ul li>span a{
+    color: #989898;
+    margin-right: 10px;
+
+}
+
+.main-header-bottom .slide-show div img{
+    position: absolute;
+}
+.main-header-bottom .slide-show ol{
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%,0);
+}
+.main-header-bottom .slide-show ol li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: #dedede;
+    background-size: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.main-header-bottom .slide-show ol .active{
+    background-image: url(../resource/images/main-header/slideshowselector.png);
+animation: slide-show-rotate 3s;
+}
+
+@keyframes slide-show-rotate {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.main-header-bottom .slide-show ol li+li{
+    margin-left: 15px;
+}
